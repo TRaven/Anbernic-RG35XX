@@ -20,7 +20,7 @@ Download and extract [GarlicPress](https://github.com/prosthetichead/GarlicPress
 1. Restart the RG35XX (Turn it off and on again)
 1. Plug the USB cord into the RG35XX and the Computer.
 1. Open *GarlicPress*
-1. If GarlicPress sees your console, the logo on the top left of the app will turn green.
+2. If GarlicPress sees your console, the logo on the top left of the app will turn green.
 Don't Forget to Run *Toggle ADB* again to turn it off if you want to use wired controllers or you may have problems.
 
 ## What Games Should I Play?
