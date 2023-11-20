@@ -43,12 +43,15 @@ Don't Forget to Run *Toggle ADB* again to turn it off if you want to use wired c
 ### ROM Search
 GarlicOS doesn't have a ROM search by default. You can enable this functionality by uploading the [romSearch app](https://www.rg35xx.com/en/apps/apps-for-garlicos/).
 
+### ROM Collections
+If you want to enable some rom categorization functionality (i.e. putting your ROMs in a "Beaten" category or separate them out by genres) then use the [Collections mod](https://www.rg35xx.com/en/apps/mods-for-garlicos/).
+
 ## External Controller Support
-I have had luck with the "Microsoft Xbox 360 Wireless Controller for Windows" which come with a USB wireless adaptor. This adaptor will plug into a USB-C to USB-A adaptor which will plug into the USB-C port on the bottom of the RG35XX. Right now it's not workign quite right for me. WORKING ON IT!
+I have had luck with the "Microsoft Xbox 360 Wireless Controller for Windows" which come with a USB wireless adaptor. This adaptor will plug into a USB-C to USB-A adaptor which will plug into the USB-C port on the bottom of the RG35XX. Right now I don't have it working with the Garlic main menu, but the games work.
 
 1. On the RG35XX, on the first SD card in the /misc directory (or partition if you're plugging the SD card directly to your computer) create a file named waitForUSB (no extension).
 1. While you're in there, back up /mnt/mmc/CFW/retroarch/.retroarch/retroarch.cfg (don't be like me and destroy your config and have to reflash).
-1. *IMPORTANT* If you're using it, make sure ADB is disabled before trying to plug in your controller or it won't be detected.
+1. *IMPORTANT*: If you're using it, make sure ADB is disabled before trying to plug in your controller or it won't be detected.
 1. You may need to reconfigure the controls in retroarch.
    1. Settings -> Input -> Maximum Users = 2 (number of controllers + 1)
    2. Do not touch Port 1 Controls in global settings, they are mapped to rg35xx buttons.
@@ -60,9 +63,6 @@ I have had luck with the "Microsoft Xbox 360 Wireless Controller for Windows" wh
 1. If you want to use one of the controllers as Player 1, launch the game, change the control mappings of the last controller (2nd in this example) in Quick Menu, and save them for game/directory/core (hold Menu for at least 1 second, then press X to open Quick Menu):
    1.   Quick Menu -> Controls -> Port 2 Controls -> Mapped Port = 1
    1.   Quick Menu -> Controls -> Manage Remap Files -> Update/Save Remap File for Game/Core
-
-### ROM Collections
-If you want to enable some rom categorization functionality (i.e. putting your ROMs in a "Beaten" category or separate them out by genres) then use the [Collections mod](https://www.rg35xx.com/en/apps/mods-for-garlicos/).
 
 ## Customizing the UI
 You can play around with some [Skins](https://www.rg35xx.com/en/customization/garlicos-themes/), [boot logos](https://www.rg35xx.com/en/customization/boot-logos/), [System Icons](https://www.rg35xx.com/en/customization/system-icons/), and [battery charging themes]([https://www.rg35xx.com/en/customization/share-your-battery-charging-theme/) to customize your look.
