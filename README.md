@@ -7,12 +7,14 @@ You can flash your SD card with the firmware with a tool such as [Balena Etcher]
 
 ## Accessing the files via USB on GarlicOS
 We will use ADB to access the files on our RG35XX without having to remove the SD cards after it's set up. This guide will focus on accessing the files via Windows.
+
 ### Prepping the SD card.
 1. Download the latest <a href="https://www.rg35xx.com/en/apps/mods-for-garlicos/" target="_blank">Toggle ADB mod</a>.
 1. Pull the SD card where you store your ROMs (i.e. in a 2-card setup, use the 2nd SD card) and plug it into your computer.
 1. On the SD card, navigate to Roms/APPS
 1. Paste the contents of the Toggle ADB archive into this directory (i.e. Roms/APPS/Toggle ADB.sh and Roms/APPS/bin/printstr).
 1. Eject the SD card and re-instert it into the RG35XX.
+
 ### Prepping Windows
 To access our library and mess with the game artwork, we'll download and extract [GarlicPress](https://github.com/prosthetichead/GarlicPress). 
 
@@ -46,6 +48,7 @@ I have had luck with the "Microsoft Xbox 360 Wireless Controller for Windows" wh
 
 1. On the RG35XX, on the first SD card in the /misc directory (or partition if you're plugging the SD card directly to your computer) create a file named waitForUSB (no extension).
 1. While you're in there, back up /mnt/mmc/CFW/retroarch/.retroarch/retroarch.cfg (don't be like me and destroy your config and have to reflash).
+1. *IMPORTANT* If you're using it, make sure ADB is disabled before trying to plug in your controller or it won't be detected.
 1. You may need to reconfigure the controls in retroarch.
    1. Settings -> Input -> Maximum Users = 2 (number of controllers + 1)
    2. Do not touch Port 1 Controls in global settings, they are mapped to rg35xx buttons.
