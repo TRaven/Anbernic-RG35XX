@@ -50,7 +50,7 @@ I have had luck with the "Microsoft Xbox 360 Wireless Controller for Windows" wh
    1. Settings -> Input -> Maximum Users = 2 (number of controllers + 1)
    2. Do not touch Port 1 Controls in global settings, they are mapped to rg35xx buttons.
    3. Settings -> Input -> Port 2 Controls
-      1. Device Index = MyController
+      1. Device Index = [Whatever controller is detected]
       2. Configure the keys
       3. Save Controller Profile
       4. Back out to the main retroarch menu and go to Configuration File -> Save Current Configuration
