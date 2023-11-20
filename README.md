@@ -49,7 +49,7 @@ If you want to enable some rom categorization functionality (i.e. putting your R
 ## External Controller Support
 I have had luck with the "Microsoft Xbox 360 Wireless Controller for Windows" which come with a USB wireless adaptor. This adaptor will plug into a USB-C to USB-A adaptor which will plug into the USB-C port on the bottom of the RG35XX. Right now I don't have it working with the Garlic main menu, but the games work.
 
-1. On the RG35XX, on the first SD card in the /misc directory (or partition if you're plugging the SD card directly to your computer) create a file named waitForUSB (no extension).
+1. On the first SD card in the /misc directory (or partition if you're plugging the SD card directly to your computer) create a file named waitForUSB (no extension).
 1. While you're in there, back up /mnt/mmc/CFW/retroarch/.retroarch/retroarch.cfg (don't be like me and destroy your config and have to reflash).
 1. *IMPORTANT*: If you're using it, make sure ADB is disabled before trying to plug in your controller or it won't be detected.
 1. You may need to reconfigure the controls in retroarch.
