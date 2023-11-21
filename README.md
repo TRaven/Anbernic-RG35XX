@@ -1,9 +1,13 @@
 ---
 title: TRaven's RG35XX Setup
 ---
-## Firmware
+## Basic Setup
+### First SD card
 My preferred firmware (for now) is <a href="https://www.patreon.com/posts/garlicos-for-76561333" target="_blank">GarlicOS</a>.
 You can flash your SD card with the firmware with a tool such as [Balena Etcher](https://etcher.balena.io/)
+
+### Second SD Card
+If you want to have flexibility in using different firmwares, using a cheaper/smaller first card and use a second SD card to hold your ROMs that is larger, better quality, etc, make sure that your second card is formatted to FAT32. For larger cards you can't really do this with stock Windows formatting tools, so a good tool to use is [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm).
 
 ## Accessing the files via USB on GarlicOS
 We will use ADB to access the files on our RG35XX without having to remove the SD cards after it's set up. This guide will focus on accessing the files via Windows.
