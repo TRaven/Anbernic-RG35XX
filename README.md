@@ -4,7 +4,10 @@ title: TRaven's RG35XX Setup
 ## Basic Setup
 ### First SD card
 My preferred firmware (for now) is <a href="https://www.patreon.com/posts/garlicos-for-76561333" target="_blank">GarlicOS</a>.
+
 You can flash your SD card with the firmware with a tool such as [Balena Etcher](https://etcher.balena.io/)
+
+The cores on the stock GarlicOS may be older and there may be updated cores that can give you better performance [u/Halkieria](https://www.reddit.com/user/Halkieria/) maintains some [updated cores](https://drive.google.com/drive/folders/1IJGvK0DTwK6OO8oFGcUgds0Ti4x3AjEQ) for community use that I've had success with.
 
 ### Second SD Card
 If you want to have flexibility in using different firmwares, using a cheaper/smaller first card and use a second SD card to hold your ROMs that is larger, better quality, etc, make sure that your second card is formatted to FAT32. For larger cards you can't really do this with stock Windows formatting tools, so a good tool to use is [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm).
